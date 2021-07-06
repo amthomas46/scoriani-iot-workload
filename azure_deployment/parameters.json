@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "IotHubs_iotworkload_connectionString": {
+            "value": null
+        },
+        "IotHubs_iotworkload_containerName": {
+            "value": null
+        },
+        "servers_scorianiiot_name": {
+            "value": null
+        },
+        "IotHubs_iotworkload_name": {
+            "value": null
+        },
+        "sites_scoriani_iot_workload_name": {
+            "value": null
+        },
+        "serverfarms_scorianiiotworkload_name": {
+            "value": null
+        },
+        "virtualMachines_devicesimulator_name": {
+            "value": null
+        },
+        "databaseAccounts_scorianiiot_name": {
+            "value": null
+        },
+        "components_iotappldp7q5lwdebcw_name": {
+            "value": null
+        },
+        "actionGroups_scorianiactiongroup_name": {
+            "value": null
+        },
+        "storageAccounts_sqlvaxinc7c46kilhy_name": {
+            "value": null
+        },
+        "workspaces_scoriani_iot_name": {
+            "value": null
+        },
+        "storageAccounts_iotappldp7q5lwdebcw_name": {
+            "value": null
+        },
+        "networkInterfaces_devicesimulator116_name": {
+            "value": null
+        },
+        "activityLogAlerts_scoriani_iot_alert_name": {
+            "value": null
+        },
+        "solutions_SQLAuditing_scoriani_iot__name": {
+            "value": null
+        },
+        "dashboards_bd207813_ce39_4683_8729_30e0b9e90216_dashboard_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___iotappldp7q5lwdebcw_name": {
+            "value": null
+        },
+        "actiongroups_application_insights_smart_detection_externalid": {
+            "value": null
+        },
+        "virtualNetworks_scorianivnet_externalid": {
+            "value": null
+        }
+    }
+}
