@@ -7,9 +7,9 @@ az deployment group create -g <resource_group_name> --template-file template.jso
 
 ## Create database schema
 
-## From deployed resource collect:
-## - IoT Hub connection string
-## - SQL Database connection string
+From deployed resource collect:
+ - IoT Hub connection string
+ - SQL Database connection string
 
 ## Use VS Code to deploy the function app to the created Azure Functions site, setting connection strings for IoT Hub and SQL Database collected above
 
