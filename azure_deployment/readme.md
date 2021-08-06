@@ -11,7 +11,7 @@ From deployed resource collect:
  - IoT Hub connection string
  - SQL Database connection string
 
-## Use VS Code to deploy the function app to the created Azure Functions site, setting connection strings for IoT Hub and SQL Database collected above
+## Use VS Code to deploy the function app to the created Azure Functions site, setting connection strings for IoT Hub and SQL Database collected above as env variables
 
 ## Install Docker on the device simulator VM
 
