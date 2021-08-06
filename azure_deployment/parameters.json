@@ -2,65 +2,41 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "IotHubs_iotworkload_connectionString": {
-            "value": null
+        "iothub_name": {
+            "value": "myiothubscorianitest"
         },
-        "IotHubs_iotworkload_containerName": {
-            "value": null
+        "server_sql_name": {
+            "value": "mysqlserverforiot"
         },
-        "servers_scorianiiot_name": {
-            "value": null
+        "server_admin_name": {
+            "value": "myadminforiot"
         },
-        "IotHubs_iotworkload_name": {
-            "value": null
+        "server_admin_password": {
+            "value": "myPa33wordforiot!"
         },
-        "sites_scoriani_iot_workload_name": {
-            "value": null
+        "site_iot_name": {
+            "value": "myiotsite"
         },
-        "serverfarms_scorianiiotworkload_name": {
-            "value": null
+        "serverfarm_iot_name": {
+            "value": "myiotserverfarm"
         },
-        "virtualMachines_devicesimulator_name": {
-            "value": null
+        "virtualmachine_devicesimulator_name": {
+            "value": "myiotsimulator"
         },
-        "databaseAccounts_scorianiiot_name": {
-            "value": null
+        "logworkspace_name": {
+            "value": "mylogworkspace"
         },
-        "components_iotappldp7q5lwdebcw_name": {
-            "value": null
+        "storageaccount_iothub_name": {
+            "value": "myaccountforiot"
         },
-        "actionGroups_scorianiactiongroup_name": {
-            "value": null
+        "storageaccount_iothub_container": {
+            "value": "mystoragecontainerforiot"
         },
-        "storageAccounts_sqlvaxinc7c46kilhy_name": {
-            "value": null
+        "networkinterface_devicesimulator_name": {
+            "value": "nicforiot"
         },
-        "workspaces_scoriani_iot_name": {
-            "value": null
-        },
-        "storageAccounts_iotappldp7q5lwdebcw_name": {
-            "value": null
-        },
-        "networkInterfaces_devicesimulator116_name": {
-            "value": null
-        },
-        "activityLogAlerts_scoriani_iot_alert_name": {
-            "value": null
-        },
-        "solutions_SQLAuditing_scoriani_iot__name": {
-            "value": null
-        },
-        "dashboards_bd207813_ce39_4683_8729_30e0b9e90216_dashboard_name": {
-            "value": null
-        },
-        "smartdetectoralertrules_failure_anomalies___iotappldp7q5lwdebcw_name": {
-            "value": null
-        },
-        "actiongroups_application_insights_smart_detection_externalid": {
-            "value": null
-        },
-        "virtualNetworks_scorianivnet_externalid": {
-            "value": null
+        "virtualnetwork_iot_name": {
+            "value": "vnetforiot"
         }
     }
 }
