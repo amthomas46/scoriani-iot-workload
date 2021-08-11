@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "iothub_name": {
-            "value": "myiothubscorianitest"
+            "value": "myiothubanthotest"
         },
         "server_sql_name": {
-            "value": "mysqlserverforiot"
+            "value": "mysqlserverforiotantho"
         },
         "server_admin_name": {
             "value": "myadminforiot"
