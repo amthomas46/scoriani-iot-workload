@@ -246,11 +246,11 @@
             "name": "[parameters('serverfarm_iot_name')]",
             "location": "[resourceGroup().location]",
             "sku": {
-                "name": "P3v2",
-                "tier": "PremiumV2",
-                "size": "P3v2",
-                "family": "Pv2",
-                "capacity": 3
+                "name": "D1",
+                "tier": "Shared",
+                "size": "D1",
+                "family": "D",
+                "capacity": 1
             },
             "kind": "linux",
             "properties": {
