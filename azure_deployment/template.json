@@ -272,9 +272,6 @@
             "dependsOn": [
                 "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkinterface_devicesimulator_name'))]"
             ],
-            "zones": [
-                "1"
-            ],
             "properties": {
                 "hardwareProfile": {
                     "vmSize": "Standard_D2s_v3"
