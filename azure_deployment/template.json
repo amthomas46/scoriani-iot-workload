@@ -246,10 +246,10 @@
             "name": "[parameters('serverfarm_iot_name')]",
             "location": "[resourceGroup().location]",
             "sku": {
-                "name": "F1",
+                "name": "Y1",
                 "tier": "Free",
-                "size": "F1",
-                "family": "F",
+                "size": "Y1",
+                "family": "Y",
                 "capacity": 1
             },
             "kind": "linux",
